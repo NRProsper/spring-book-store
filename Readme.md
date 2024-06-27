@@ -1,33 +1,57 @@
-# Bookstore API
+# 📚 Bookstore API
 
-This project is a Bookstore API built with Spring Boot. The main goals of this project are to:
-- Learn to work with file uploads and downloads.
-- Implement user authentication and authorization (normal users, authors, and admins).
-- Integrate with NGINX for load balancing and reverse proxy.
-- Use Redis for caching.
+Welcome to the Bookstore Application, a full-featured project designed to manage and showcase books effectively. This application is built with a modern tech stack to ensure scalability, maintainability, and ease of use.
 
-
-## Table of Contents
-- [Requirements](#requirements)
-- [Architecture](#architecture)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Running the Application](#running-the-application)
-- [Endpoints](#endpoints)
-- [Technologies](#technologies)
-- [Contributing](#contributing)
-- [License](#license)
+## 🌟 Features
+* **Book Management**: Create, read, update, and delete books with comprehensive metadata including title, ISBN, description, and genres.
 
 
-## Requirements
-- Java 11+
-- Maven
-- Docker
-- Docker Compose
+* **Genre Management**: Assign multiple genres to books, and manage genres efficiently.
 
-## Architecture
-The architecture consists of:
-- **Spring Boot** application for the backend.
-- **NGINX** as a reverse proxy and load balancer.
-- **Redis** for caching.
-- **MySQL** or **PostgreSQL** for the relational database.
+
+* **File Uploads**: Upload book cover images and PDF files seamlessly using Cloudinary.
+
+
+* **Role-based Access Control**: Secure the application with two distinct roles - ADMIN and USER, ensuring appropriate access to features.
+
+
+* **High Performance:** Optimized to handle high traffic with technologies like NGINX, Redis, Docker, and an API Gateway.
+
+
+* **Secure Configuration**: Keep sensitive API keys and secrets secure, even in a public repository.
+
+## 🛠️ Technologies Used
+
+* **Spring Boot**: A powerful, versatile framework for building Java-based applications.
+
+
+* **Cloudinary**: For efficient and scalable image and PDF storage.
+
+
+* **Docker**: Containerization of the application for consistent and portable environments.
+
+
+* **NGINX**: A high-performance web server for serving static content and reverse proxy.
+
+
+* **Redis**: An in-memory data structure store, used as a database, cache, and message broker.
+
+
+* **API Gateway**: Manage and route API requests effectively to microservices.
+
+## ⚠️ Warning
+**Important Notice:** Some features of this Bookstore application are still under development and not yet implemented. Please be aware that the following functionalities are currently unavailable:
+
+- **Update Book Details**
+- **Delete Books**
+- **Comprehensive Genre Management**
+- **Role-based Access Control Implementation**
+
+I am currently working on these features and appreciate your patience and understanding. Stay tuned for updates!
+
+## 🤝 Contributing
+Contributions are welcome!
+
+## 📞 Contact
+- Email: prosper.rk1gmail.com
+
