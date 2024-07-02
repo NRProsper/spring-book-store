@@ -6,6 +6,7 @@ import dev.kiki.bookstore.models.Genre;
 import dev.kiki.bookstore.repositories.BookRepository;
 import dev.kiki.bookstore.repositories.GenreRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 

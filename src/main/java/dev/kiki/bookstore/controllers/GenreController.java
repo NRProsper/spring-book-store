@@ -5,6 +5,7 @@ import dev.kiki.bookstore.services.GenreService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -33,6 +34,7 @@ public class GenreController {
     }
 
     @PutMapping("/{id}")
+    @PreAuthorize("hasAuthority('ADMIN')")
     public ResponseEntity<Genre> updateGenre(@PathVariable Integer id, @RequestBody Genre genre) {
         return ResponseEntity.ok(genreService.updateGenre(id, genre));
     }
