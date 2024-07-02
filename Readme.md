@@ -44,8 +44,6 @@ Welcome to the Bookstore Application, a full-featured project designed to manage
 
 - **Update Book Details**
 - **Delete Books**
-- **Comprehensive Genre Management**
-- **Role-based Access Control Implementation**
 
 I am currently working on these features and appreciate your patience and understanding. Stay tuned for updates!
 
